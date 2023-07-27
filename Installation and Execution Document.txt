@@ -1,0 +1,25 @@
+Project Installation and Execution:
+
+1. Install aws-shell
+
+Command:
+
+pip install aws-shell
+
+2. configure the shell with my security credentials
+
+Command:
+
+aws configure
+
+Give:
+AWSAccessKeyId=AKIAYTK2LPD3VWJPFZWY
+AWSSecretKey=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
+
+3. Start the model by running start_model.py in VisualCode
+
+4. Run test model by executing test.py to detect set image stored in S3 bucket online.
+4a. in main "bucket=" contains the name of your bucket.
+4b. in main "photo=" contains name of the picture from s3 bucket you wish to test. Change it to check any image in the s3 bucket.
+
+5. Run stop_model.py to stop the model after testing.
